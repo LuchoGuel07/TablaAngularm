@@ -16,12 +16,7 @@ export class AppComponent {
   @ViewChild(MatTable)
   tabla1!: MatTable<Persona>;
 
-  borrarFila(cod: number) {
-    if (confirm("Realmente quiere borrarlo?")) {
-      this.datos.splice(cod, 1);
-      this.tabla1.renderRows();
-    }
-  }
+ 
 
   agregar() {
     this.datos.push(new Persona(this.personaselect.edad, this.personaselect.nombre, this.personaselect.peso, this.personaselect.telefono));
