@@ -1,0 +1,28 @@
+table {
+    width: 90%;
+    margin:1rem auto;
+ }
+
+ .contenedor {
+    flex-direction: column;
+    margin:1rem auto;
+    max-width: 600px;
+    box-shadow: -1px 3px 66px 0px rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+}  
+input[type=number] {
+border: solid;
+border-color: rgb(233, 190, 190);
+background-color: rgb(255, 255, 255);
+padding: 1rem;
+width: 120px;
+height: 10px;
+}
+input[type=text]{
+    border: solid;
+    border-color: rgb(233, 190, 190);
+background-color: rgb(255, 255, 255);
+padding: 1rem;
+width: 120px;
+height: 10px;
+}
