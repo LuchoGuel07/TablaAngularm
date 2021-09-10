@@ -17,6 +17,10 @@ export class AppComponent {
   @ViewChild(MatTable)
   tabla1!: MatTable<Persona>;
 
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> 84a3425af78b4a3dc1c45612653d180d5fff15c8
   agregar() {
     this.datos.push(new Persona(this.personaselect.edad, this.personaselect.nombre, this.personaselect.peso, this.personaselect.telefono));
     this.tabla1.renderRows();
