@@ -7,6 +7,7 @@ import { MatTable } from '@angular/material/table';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  percent = 90;
   columnas: string[] = ['edad', 'nombre', 'peso', 'telefono'];
 
   datos: Persona[] = [];

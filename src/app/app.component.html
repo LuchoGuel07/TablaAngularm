@@ -1,6 +1,6 @@
 <br>
 <h1 ALIGN=center>TABLA DE PERSONAS</h1>
-<mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+<mat-progress-bar mode="buffer" value="20">color=warn</mat-progress-bar>
 <div class="contenedor">
 
   <mat-form-field>
@@ -47,4 +47,4 @@
   <tr mat-header-row *matHeaderRowDef="columnas"></tr>
   <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
 </table>
-<mat-progress-bar mode="buffer"></mat-progress-bar>
+<mat-progress-bar mode="indeterminate"></mat-progress-bar>
